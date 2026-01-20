@@ -14,7 +14,16 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.owadi1999.uniStyleTest"
+      "bundleIdentifier": "com.owadi1999.uniStyleTest",
+      "infoPlist": {
+        "CFBundleURLTypes": [
+          {
+            "CFBundleURLSchemes": [
+              "com.googleusercontent.apps.452576117144-csn6mor91m5u8f1ef9kb03kplrrmnvpk"
+            ]
+          }
+        ]
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -26,6 +35,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "scheme": "unistyletest"
   }
 }
